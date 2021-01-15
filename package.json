@@ -2,7 +2,7 @@
   "name": "autorpc",
   "version": "0.0.1",
   "description": "Auto generate JSON-RPC 2.0 request",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -10,5 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "sideEffects": false
 }
