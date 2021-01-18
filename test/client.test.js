@@ -14,5 +14,3 @@ test("should successfully return error when fetch error", () => {
     fetch: (x) => ({jsonrpc: "2.0", error: {code: 32000, message: "Server Error", data: {}}})
   }).fuck([123, "abc"])).toStrictEqual({code: 32000, message: "Server Error", data: {}})
 })
-
-test("should success")

@@ -18,7 +18,7 @@ export class AutoRPCError {
   }
 }
 
-const ensure = (...args: boolean[]) => {
+export const ensure = (...args: boolean[]) => {
   args.forEach(arg => {
     if (!arg) {
       throw new AutoRPCError(32000, "Assertion failed.")
