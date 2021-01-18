@@ -2,7 +2,7 @@
   "name": "autorpc",
   "version": "0.0.1",
   "description": "Auto generate JSON-RPC 2.0 request",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
