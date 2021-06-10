@@ -1,12 +1,10 @@
 const {client, server} = require("../index")
 
 const srv = server({
-  handlers: {
     fuck: ({shit}) => {
       return shit
     }
-  }
-})
+  })
 
 const clt = client({
   fetch: (request) => srv(request)
